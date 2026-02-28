@@ -1,0 +1,65 @@
+
+
+<audio controls>
+  <source src="Thru These Tears.mp3" type="audio/ogg">
+  <source src="Thru These Tears.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Ianrific.png" alt="Ianrific" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Froilan R. Buenvenida</h1>
+      <p>STEM Eng 11-G</p>
+      <p>Fidelis Senior Highschool</p>
+    </div>
+  </div>
+</div>
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: gold;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+     <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Ianrific.png" alt="Ianrific" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+	    </div>
+  </div>
+</div>
